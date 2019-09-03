@@ -4,5 +4,10 @@
   "main": "index.js",
   "repository": "https://github.com/remew/typed-switch.git",
   "author": "remew <foolishremew@gmail.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "rollup": "^1.20.2",
+    "rollup-plugin-typescript2": "^0.23.0",
+    "typescript": "^3.5.3"
+  }
 }
