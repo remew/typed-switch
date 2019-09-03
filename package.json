@@ -8,6 +8,7 @@
     "build": "rollup -c",
     "clean": "rm -rf dist",
     "dev": "rollup -c -w",
+    "prepare": "npm run clean && npm run build",
     "typecheck": "tsc --noEmit"
   },
   "repository": "https://github.com/remew/typed-switch.git",
