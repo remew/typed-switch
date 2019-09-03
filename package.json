@@ -1,7 +1,9 @@
 {
   "name": "typed-switch",
   "version": "0.0.0",
-  "main": "index.js",
+  "main": "dist/index.cjs.js",
+  "module": "dist/index.esm.js",
+  "types": "dist/index.d.ts",
   "repository": "https://github.com/remew/typed-switch.git",
   "author": "remew <foolishremew@gmail.com>",
   "license": "MIT",
