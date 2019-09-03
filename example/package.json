@@ -1,0 +1,13 @@
+{
+  "name": "typed-switch-example",
+  "version": "1.0.0",
+  "scripts": {
+    "build": "tsc"
+  },
+  "dependencies": {
+    "typed-switch": "../"
+  },
+  "devDependencies": {
+    "typescript": "^3.6.2"
+  }
+}
