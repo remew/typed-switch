@@ -14,6 +14,10 @@
   "repository": "https://github.com/remew/typed-switch.git",
   "author": "remew <foolishremew@gmail.com>",
   "license": "MIT",
+  "files": [
+    "!example",
+    "dist"
+  ],
   "devDependencies": {
     "rollup": "^1.20.2",
     "rollup-plugin-typescript2": "^0.23.0",
