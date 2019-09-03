@@ -6,6 +6,7 @@
   "types": "dist/index.d.ts",
   "scripts": {
     "build": "rollup -c",
+    "clean": "rm -rf dist",
     "dev": "rollup -c -w",
     "typecheck": "tsc --noEmit"
   },
