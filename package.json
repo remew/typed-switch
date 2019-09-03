@@ -4,6 +4,11 @@
   "main": "dist/index.cjs.js",
   "module": "dist/index.esm.js",
   "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "rollup -c",
+    "dev": "rollup -c -w",
+    "typecheck": "tsc --noEmit"
+  },
   "repository": "https://github.com/remew/typed-switch.git",
   "author": "remew <foolishremew@gmail.com>",
   "license": "MIT",
