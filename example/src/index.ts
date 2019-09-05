@@ -1,8 +1,8 @@
-import $switch from 'typed-switch';
+import xwitch from 'xwitch';
 
 const n = 42;
 
-const s = $switch(n)
+const s = xwitch(n)
   .case(0, () => 'zero')
   .case(1, () => 'one')
   .case(2, () => '42')
