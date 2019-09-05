@@ -1,7 +1,7 @@
-const twitch = <T>(v: T): InitialMatcher<T> => {
+const xwitch = <T>(v: T): InitialMatcher<T> => {
   return new InitialMatcherImpl(v);
 };
-export default twitch;
+export default xwitch;
 
 export interface Matcher<ValueType, ResultValueType> {
   case<V extends ValueType, ReturnValueType2>(v: V, callback: () => ReturnValueType2): Matcher<ValueType, ResultValueType | ReturnValueType2>;
